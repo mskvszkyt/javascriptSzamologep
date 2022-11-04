@@ -1,6 +1,6 @@
 function Atvalt() {
-  numb1 = document.getElementById("num1").value;
-  numb2 = document.getElementById("num2").value;
+  numb1 = parseInt(document.getElementById("num1").value);
+  numb2 = parseInt(document.getElementById("num2").value);
 }
 
 function Osszead() {
